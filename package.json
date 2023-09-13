@@ -1,0 +1,25 @@
+{
+  "name": "telo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./style.css. -o ./css/output.css",
+    "watch": "npx tailwindcss  -i ./style.css -o ./css/output.css --watch",
+    "build": "NODE_ENV=production npx tailwindcss -i ./style.css -o ./css/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vawnchiss/telos-bai-tap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vawnchiss/telos-bai-tap/issues"
+  },
+  "homepage": "https://github.com/Vawnchiss/telos-bai-tap#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
