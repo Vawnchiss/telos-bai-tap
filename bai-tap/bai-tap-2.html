@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .header {
+        width: 1110px;
+        max-width: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: flex;
+        align-items: center;
+      }
+      .menuItem {
+        margin-right: 32px;
+        display: flex;
+        align-items: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+      }
+      .content {
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .title {
+        font-family: Inter;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 98px;
+        text-align: center;
+        margin-top: 96px;
+      }
+      .button {
+        width: fit-content;
+        font-size: 16px;
+        font-family: Inter;
+        padding: 12px 32px;
+        border-radius: 6px;
+        border: none;
+        margin-top: 32px;
+        color: white;
+        background: #8c30f5;
+      }
+      .circlecontainer {
+        margin-top: 247px;
+        overflow: hidden;
+        height: 171px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+      }
+      .circle {
+        width: 1200px;
+        height: 1200px;
+        border-radius: 100%;
+        background: #d6b1ff;
+      }
+      .iphone {
+        margin-top: 94px;
+        filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .icon {
+        margin-left: 4px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0">
+    <div class="container">
+      <div class="header">
+        <img src="/hinh-anh-bai-2/Dark.svg" alt="" style="margin-right: 32px" />
+        <div class="menuItem">About</div>
+        <div class="menuItem">Products</div>
+        <div class="menuItem">Pricing</div>
+        <div class="menuItem">Blog</div>
+        <div class="menuItem">Jobs</div>
+        <div class="menuItem">
+          More <img class="icon" src="/hinh-anh-bai-2/chevron-down.svg" alt="" />
+        </div>
+        <img
+          style="margin-right: 12px; margin-left: auto"
+          src="/hinh-anh-bai-2/Google Play Badge.svg"
+          alt=""
+        />
+        <img src="/hinh-anh-bai-2/App Store Badge.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="title">Track your product sales from anywhere, anytime.</div>
+        <button class="button">Start selling</button>
+      </div>
+    </div>
+
+    <div>
+      <img class="iphone" src="/hinh-anh-bai-2/iPhone X.svg" alt="" />
+      <div class="circlecontainer">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </body>
+</html>
