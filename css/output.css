@@ -593,6 +593,11 @@ video {
   margin-right: auto;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -601,11 +606,6 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .mb-6 {
@@ -665,10 +665,6 @@ video {
   height: 1px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-\[540px\] {
   width: 540px;
 }
@@ -680,10 +676,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .max-w-\[1110px\] {
@@ -878,6 +870,33 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+@media (min-width: 768px) {
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:pl-\[165px\] {
+    padding-left: 165px;
+  }
+
+  .md\:pr-\[165px\] {
+    padding-right: 165px;
+  }
+
+  .md\:pr-\[95px\] {
+    padding-right: 95px;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -892,15 +911,55 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:pr-\[95px\] {
-    padding-right: 95px;
+  .lg\:p-\[165px\] {
+    padding: 165px;
   }
 
-  .lg\:pr-0 {
-    padding-right: 0px;
+  .lg\:px-\[165px\] {
+    padding-left: 165px;
+    padding-right: 165px;
   }
 
   .lg\:pl-0 {
     padding-left: 0px;
+  }
+
+  .lg\:pl-\[165px\] {
+    padding-left: 165px;
+  }
+
+  .lg\:pr-\[165px\] {
+    padding-right: 165px;
+  }
+
+  .lg\:pr-\[95px\] {
+    padding-right: 95px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .xl\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:pl-\[165px\] {
+    padding-left: 165px;
+  }
+
+  .xl\:pr-\[165px\] {
+    padding-right: 165px;
+  }
+
+  .xl\:pr-\[5px\] {
+    padding-right: 5px;
   }
 }
