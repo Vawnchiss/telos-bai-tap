@@ -21,11 +21,25 @@ module.exports = {
             fontWeight: '800',
           },
         ],
+        H4: [
+          '28px',
+          {
+            lineHeight: '40px',
+            fontWeight: '700',
+          },
+        ],
         H5: [
           '24px',
           {
             lineHeight: '32px',
             fontWeight: '600',
+          },
+        ],
+        H6: [
+          '20px',
+          {
+            lineHeight: '30px',
+            fontWeight: '500',
           },
         ],
         Lead1: [

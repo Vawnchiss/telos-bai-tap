@@ -21,5 +21,9 @@
   "homepage": "https://github.com/Vawnchiss/telos-bai-tap#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "wowjs": "^1.1.3"
   }
 }
