@@ -7,6 +7,13 @@ module.exports = {
         sans: ['inter'],
       },
       fontSize: {
+        H1: [
+          '72px',
+          {
+            lineHeight: '98px',
+            fontWeight: '800',
+          },
+        ],
         H2: [
           '48px',
           {
@@ -68,6 +75,13 @@ module.exports = {
           {
             lineHeight: '28px',
             fontWeight: '700',
+          },
+        ],
+        Label: [
+          '14px',
+          {
+            lineHeight: '20px',
+            fontWeight: '500',
           },
         ],
       },

@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vawnchiss/telos-bai-tap.git"
+    "url": "git+https://github.com/vawnchiss/telos-bai-tap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vawnchiss/telos-bai-tap/issues"
+    "url": "https://github.com/vawnchiss/telos-bai-tap/issues"
   },
-  "homepage": "https://github.com/Vawnchiss/telos-bai-tap#readme",
+  "homepage": "https://github.com/vawnchiss/telos-bai-tap#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   },
