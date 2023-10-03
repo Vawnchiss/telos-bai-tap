@@ -6,6 +6,6 @@ function closeMenu() {
 }
 
 function toggleMenu() {
-  document.getElementById('mobileMenu').classList.toggle = 'animate__slideInRight';
-  document.getElementById('mobileMenu').classList.toggle = 'animate__slideOutRight';
+  document.getElementById('mobileMenu').classList.toggle('animate__slideInRight');
+  document.getElementById('mobileMenu').classList.toggle('animate__slideOutRight');
 }
