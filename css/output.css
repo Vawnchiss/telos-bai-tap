@@ -897,6 +897,18 @@ video {
   overflow: hidden;
 }
 
+.overflow-clip {
+  overflow: clip;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-clip {
+  overflow-x: clip;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1213,6 +1225,18 @@ video {
     gap: 7rem;
   }
 
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
+  .md\:gap-14 {
+    gap: 3.5rem;
+  }
+
   .md\:p-10 {
     padding: 2.5rem;
   }
@@ -1291,6 +1315,10 @@ video {
 
   .lg\:gap-20 {
     gap: 5rem;
+  }
+
+  .lg\:gap-28 {
+    gap: 7rem;
   }
 
   .lg\:px-0 {
